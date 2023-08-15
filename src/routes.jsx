@@ -1,5 +1,5 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
-import { Footer, Loader, Navbar } from "@/components";
+import { Footer, Navbar } from "@/components";
 import {
   Home,
   Gigs,
@@ -12,15 +12,12 @@ import {
   Message,
   MyGigs,
 } from "@/pages";
-import { Suspense } from "react";
 
 const Layout = () => {
   return (
     <>
       <Navbar />
-      <Suspense fallback={<Loader />}>
-        <Outlet />
-      </Suspense>
+      <Outlet />
       <Footer />
     </>
   );
