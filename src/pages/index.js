@@ -1,0 +1,10 @@
+export { default as Add } from "./add";
+export { default as Gig } from "./gig";
+export { default as Gigs } from "./gigs";
+export { default as Home } from "./home";
+export { default as Login } from "./login";
+export { default as Message } from "./message";
+export { default as Messages } from "./messages";
+export { default as MyGigs } from "./myGigs";
+export { default as Orders } from "./orders";
+export { default as Register } from "./register";
